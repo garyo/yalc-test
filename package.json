@@ -1,0 +1,10 @@
+{
+  "name": "yalc-test",
+  "private": true,
+  "workspaces": [
+    "common",
+    "app"
+  ],
+  "dependencies": {
+  }
+}

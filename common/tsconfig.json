@@ -1,0 +1,24 @@
+// We target Node.js 13, so use target=es2019 and lib: es2020
+// See https://stackoverflow.com/questions/59787574
+
+{
+  "compileOnSave": false,
+  "compilerOptions": {
+    "baseUrl": ".",
+    "strict": false,
+    "target": "es2019",
+    "module": "commonjs",
+    "importHelpers": true,
+    "experimentalDecorators": true,
+    "emitDecoratorMetadata": true,
+    "allowSyntheticDefaultImports": true,
+    "noImplicitReturns": true,
+    "esModuleInterop": true,
+    "inlineSourceMap": true,
+    "moduleResolution": "node",
+    "outDir": "dist"
+  },
+  "lib": ["es2020"],
+  "include": ["**/*.ts"],
+  "exclude": ["node_modules"]
+}

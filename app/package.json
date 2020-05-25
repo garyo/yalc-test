@@ -1,0 +1,10 @@
+{
+  "name": "app",
+  "version": "0.1.0",
+  "scripts": {
+    "build": "tsc -d --outDir dist"
+  },
+  "dependencies": {
+    "@garyo-test/common": "link:.yalc/@garyo-test/common"
+  }
+}
